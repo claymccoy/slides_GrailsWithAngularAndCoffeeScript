@@ -36,304 +36,461 @@
 			<div class="slides">
 
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
+					<h2>Grails, AngularJS, CoffeeScript and more...</h1>
+					<h4>Craming Cool Stuff Into a Grails Application</h3>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>Created by Clay McCoy</small>
 					</p>
 				</section>
 
 				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
-
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>
-							Slides can be nested inside of other slides,
-							try pressing <a href="#" class="navigate-down">down</a>.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
+					<h2>Who is Clay McCoy?</h2>
+					<div style="float:left;"><img width="300" src="lib/img/old_with_kids.jpg"></div>
+					<div><img height="200" src="lib/img/wakeboard.jpg"></div>
+					<div>
+						<ul>
+							<li class="fragment">Engineering Tools @ Netflix</li>
+							<li class="fragment">Asgard - AWS deployment<ul>
+								<li>on Github</li>
+								<li>written in Grails</li>
+							</ul>
+							<li class="fragment">from Alabama with 3 kids</li>
+						</ul>
+					</div>
 				</section>
 
 				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview. Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
+					<h2>Setting Expectations</h2>
+					<div style="float:left;"><img width="250" src="lib/img/donkey_plans.jpg"></div>
+					<div>
+						<ul>
+							<li class="fragment">Not a Javascript MVC expert</li>
+							<li class="fragment">Not an AngularJS expert</li>
+							<li class="fragment">Not claiming the best approach</li>
+							<li class="fragment">Biased, Grails FTW!</li>
+						</ul>
+					</div>
 				</section>
 
 				<section>
-					<h2>rvl.io</h2>
-					<p>
-						If you don't like writing slides in HTML you can use the online editor <a href="http://www.rvl.io" target="_blank">rvl.io</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Works in Mobile Safari</h2>
-					<p>
-						Try it out! You can swipe through the slides and pinch your way to the overview.
-					</p>
-				</section>
-
-				<section>
-					<h2>Marvelous Unordered List</h2>
+					<h2>Why AngularJS</h2>
+					<div style="float:right;"><img width="300" src="lib/img/testable_code_blog.png"></div>
 					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
+						<li class="fragment">Written by testability guru</li>
+						<li class="fragment">Reimagines JS development</li>
+						<li class="fragment">Good documentation</li>
+						<li class="fragment">Great tutorial</li>
 					</ul>
 				</section>
 
 				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
+					<h2>Motivation</h2>
+					<div style="float:right;"><img width="250" src="lib/img/i_get_groovy.jpg"></div>
+					<ul style="float:left;">
+					<li>Wanted JS to feel more Groovy.</li>
+					<li class="fragment">AngularJS tutorial with
+						Grails.</li>
+					<li class="fragment">Then write a real application.</li>
+					</ul>
 				</section>
+				<section>
+					<p>Why not use all the cool toys together?</p>
+					<div style="float:right;"><img width="350" src="lib/img/automate.jpg"></div>
+						<ul>
+							<li>AngularJS</li>
+							<li>Grails 2.1</li>
+							<li>resources plugin</li>
+							<li>CoffeeScript</li>
+							<li>Geb with Spock</li>
+							<li>Jasmine</li>
+						</ul>
 
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-
-							<section data-markdown>
-							  ## Markdown support
-
-							  For those of you who like that sort of thing.
-							  Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-							</section>
-					</script>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=cube#/transitions">Cube</a> -
-						<a href="?transition=page#/transitions">Page</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a> -
-						<a href="?transition=linear#/transitions">Linear</a> -
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?#/transitions">Default</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						Reveal.js comes with a few themes built in: <br>
-						<a href="?theme=sky#/themes">Sky</a> -
-						<a href="?theme=beige#/themes">Beige</a> -
-						<a href="?theme=simple#/themes">Simple</a> -
-						<a href="?theme=serif#/themes">Serif</a> -
-						<a href="?theme=night#/themes">Night</a> -
-						<a href="?#/themes">Default</a>
-					</p>
-					<p>
-						<small>
-							* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.
-						</small>
-					</p>
+					<p class="fragment">... and never finish</p>
 				</section>
 
 				<section>
-					<section data-state="alert">
-						<h2>Global State</h2>
-						<p>
-							Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-							will be added as a class to the document element when the slide is open. This lets you
-							apply broader style changes, like switching the background.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+					<section>
+						<h2>Grails Resources plugin</h2>
+						<p>Manage client side static resources like images, js, and css files.</p>
 					</section>
-					<section data-state="blackout">
-						<h2>"blackout"</h2>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-state="soothe">
-						<h2>"soothe"</h2>
-						<a href="#" class="image navigate-next">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(-90deg);">
-						</a>
-					</section>
-				</section>
-
-				<section data-state="customevent">
-					<h2>Custom Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code contenteditable style="font-size: 18px; margin-top: 20px;">Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						The nice thing about standards is that there are so many to choose from</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) ) {
-        node.className += ' roll';
-      }
-    };
-  }
+					<section>
+						<p>Define dependencies between the resources.</p>
+				    <pre><code>/grails-app/conf/ApplicationResources.groovy</code></pre>
+					<pre><code contenteditable>modules = {
+    app {
+        dependsOn 'jquery, angularResource, bootstrap'
+        resource url: 'css/app.css'
+        resource url: 'js/angular/app/js/angularApp.js'
+    }
+    bootstrap {
+        dependsOn 'jquery'
+        resource url: 'js/bootstrap/css/bootstrap.min.css'
+        resource url: 'js/bootstrap/js/bootstrap.min.js'
+    }
+    angular {
+        resource id: 'js', url: [dir: 'js/angular/app/lib/angular',
+        file: "angular.js"], nominify: true
+    }
+    angularResource {
+        dependsOn 'angular'
+        resource id: 'js', url: [dir: 'js/angular/app/lib/angular',
+        file: "angular-resource.js"], nominify: true
+    }
 }
 					</code></pre>
-					<p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<section>
-						<h2>Fragmented Views</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<ol>
-							<li class="fragment"><code>any type</code></li>
-							<li class="fragment"><em>of view</em></li>
-							<li class="fragment"><strong>fragments</strong></li>
-						</ol>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
 					</section>
 					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's a few styles of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment roll-in">roll-in</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-green">highlight-green</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
+						<p>Bring them into a page by specifying the top level module.</p>
+						<img src="lib/img/code/template.png">
 					</section>
 				</section>
 
 				<section>
-					<h2>Spectacular image!</h2>
-					<a class="image" href="http://lab.hakim.se/meny/" target="_blank">
-						<img width="320" height="299" src="http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png" alt="Meny">
-					</a>
+					<section>
+						<h2>CoffeeScript</h2>
+						<p>
+							CoffeeScript is a little language that compiles into JavaScript. ...CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.
+						</p>
+						<img src="lib/img/code/coffee_vs_js.png">
+					</section>
+					<section>
+						<h3>CoffeeScript is more like Groovy</h3>
+						<ul>
+							<li>No semicolons</li>
+							<li>Default arguments <pre style="float:right;"><code contenteditable>fill = (container, liquid = "coffee") ->
+  "Filling the #{container} with #{liquid}..."</code></pre></li>
+							<li>String interpolation</li>
+							<li>Multiline Strings</li>
+							<li>Existential Operator<pre style="float:right;"><code contenteditable>zip = lottery.drawWinner?().address?.zipcode</code></pre></li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>CoffeeScript is more like Groovy</h3>
+						<ul>
+							<li><span>Splats</span> <pre style="float:right;"><code contenteditable>awardMedals = (first, second, others...) ->
+  gold   = first
+  silver = second
+  rest   = others</code></pre></li>
+							<li>Ranges<pre style="float:right;"><code contenteditable>numbers[0..2]</code></pre></li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Except for significant white space.</h3>
+						<img src="lib/img/whitespace.jpg">
+					</section>
+
+					<section>
+						<h3>Using CoffeeScript in Grails</h3>
+						<p>...with old version of CoffeeScript Resources plugin to write tests in CoffeeScript.</p>
+
+				    <pre><code>/grails-app/conf/BuildConfig.groovy</code></pre>
+<pre><code contenteditable>        runtime ":coffeescript-resources:0.2"
+//        runtime ":coffeescript-resources:0.3.2"
+</code></pre>
+					</section>
+					<section>
+						<h3>Using CoffeeScript in Grails</h3>
+				    <pre><code>/grails-app/conf/Config.groovy</code></pre>
+<pre><code contenteditable>coffeescript.modules = {
+    angularApp {
+        String src = 'src/coffee/angular'
+        files "${src}/services", "${src}/filters", "${src}/controllers", "${src}/app"
+        output 'angular/app/js/angularApp.js'
+    }
+    angularTests {
+        String src = 'src/coffee/angular'
+        files "${src}/servicesSpec", "${src}/filtersSpec", "${src}/controllersSpec"
+        output 'angular/test/unit/angularTests.js'
+    }
+}
+</code></pre>
+					</section>
 				</section>
 
 				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>
-					<iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
-					<script>
-						document.getElementById('slideshare').attributeName = 'allowfullscreen';
-					</script>
+					<h2>Testing with Spock</h2>
+<pre><code contenteditable>class PublisherSpec extends Specification {
+    Publisher publisher = new Publisher()
+    Subscriber subscriber = Mock()
+
+    def setup() {
+        publisher << subscriber
+    }
+
+    def "should send messages to subscribers"() {
+        when:
+        publisher.send("hello")
+
+        then:
+        1 * subscriber.receive("hello")
+    }
+}
+</code></pre>
 				</section>
 
 				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press b or period on your keyboard to enter the 'paused' mode. This mode is helpful when you want to take disctracting slides off the screen
-						during a presentation.
-					</p>
+					<section>
+						<img src="lib/img/AngularJS.png">
+						<ul>
+							<li>MVC</li>
+							<li>Data Binding</li>
+							<li>Templates (less DOM manipulation)</li>
+							<li>Dependency Injection</li>
+							<li>Testable Code</li>
+						</ul>
+					</section>
+
+					<section>
+						<a href="http://angularjs.org/#hello-html"><img src="lib/img/AngularJSBasics.png"></a>
+					</section>
+
+					<section>
+					    <h2>AngularJS Concepts</h2>
+						<ul>
+							<li>Templates - HTML with angular elements and attributes</li>
+							<li>Controllers - behavior for a page</li>
+							<li>Scope - data model</li>
+							<li>Services - reusable logic</li>
+							<li>Resources - interact with RESTful services</li>
+							<li>Directives - invent new HTML syntax</li>
+						</ul>
+					</section>
+
+					<section>
+					    <h2>AngularJS using CoffeeScript</h2>
+					    <p>Pretty easy conversion with a few gotchas due to CoffeeScript's lexical scoping.</p>
+						<ul>
+							<li>Prefix controllers with an @ to elevate their scope</li>
+							<li>Use of a 'setup' variable to give tests access to objects created in the 'beforeEach' section</li>
+						</ul>
+					</section>
+
+					<section>
+						<img src="lib/img/AngularTutorial.png">
+					</section>
+				</section>
+
+
+				<section>
+					<section>
+					    <h2>AngularJS in Grails</h2>
+						<img src="lib/img/GrailsAngularResp.png">
+					</section>
+
+					<section>
+					    <h3>Grails Controller</h3>
+
+<pre><code contenteditable>class PhoneController {
+    def phoneService
+
+    // pass through actions are like like AngularJS routes
+    // they map a URL to a template and AngularJS controller
+    def list() { [jsController: 'PhoneListCtrl'] }
+    def show() { [jsController: 'PhoneDetailCtrl'] }
+
+    // end point for restful call
+    def query(String id) {
+        if (id) {
+            render phoneService.getPhone(id)
+        } else {
+            render phoneService.allPhones()
+        }
+    }
+}
+</code></pre>
+					</section>
+
+					<section>
+					    <h3>AngularJS Controller</h3>
+<pre><code>/src/coffee/angular/controllers.coffee</code></pre>
+<pre><code contenteditable>@PhoneListCtrl = ($scope, Grails) ->
+  $scope.phones = Grails.getResource($scope).query({action: 'query'})
+  $scope.orderProp = 'age'
+
+@PhoneDetailCtrl = ($scope, Grails) ->
+  $scope.phone = Grails.getResource($scope).get {action: 'query'}, (phone) ->
+    $scope.setMainImage(phone.images[0])
+  $scope.setMainImage = (imageUrl) ->
+    $scope.mainImageUrl = imageUrl
+</code></pre>
+					</section>
+
+
+					<section>
+					    <p>Templates are GSPs</p>
+						<img src="lib/img/code/showPhoneGsp.png">
+					</section>
+
+					<section>
+					    <p>Grails params become AngularJS scope in main.gsp using ng-init</p>
+						<img src="lib/img/code/template.png">
+					</section>
+
+					<section>
+					    <p>Grails and AngularJS both manipulate template.</p>
+						<img src="lib/img/code/encodeTemplate.png">
+					</section>
+
+					<section>
+					    <p>An AngularJS service named Grails.</p>
+<pre><code>/src/coffee/angular/services.coffee</code></pre>
+<pre><code contenteditable>angular.module('phonecatServices', ['ngResource']).service 'Grails', ($resource) ->
+  getResource: (scope) ->
+    $resource "/#{appName}/:controller/:action/:id",
+      {controller: scope.controller || '', action: scope.action || '', id: scope.id || ''}
+</code></pre>
+						<img src="lib/img/resourceUsage.png">
+					</section>
+				</section>
+
+
+				<section>
+					<section>
+						<h2>Developer Testing</h2>
+						<p>Grails and AngularJS both have great testing support.</p>
+						<ul>
+							<li>Jasmine - Javascript behavior driven framework</li>
+							<li>js-test-driver - actually runs your tests</li>
+						</ul>
+					</section>
+					<section>
+						<p>Angular Unit Testing</p>
+						<pre><code contenteditable>describe 'service', ->
+  setup = {}
+
+  beforeEach module 'phonecatServices'
+
+  beforeEach inject (_$httpBackend_, $rootScope, Grails) ->
+    setup.httpBackend = _$httpBackend_
+    setup.scope = $rootScope.$new()
+    setup.grails = Grails
+
+  describe 'Grails', ->
+
+    it 'should call url with controller, action, and id', ->
+      setup.httpBackend.expectGET('/phonecat/grailsControllerName/grailsActionName/grailsId').respond()
+      setup.scope.controller = 'grailsControllerName'
+      setup.scope.action = 'grailsActionName'
+      setup.scope.id = 'grailsId'
+      setup.grails.getResource(setup.scope).get()
+
+    it 'should call url with only controller and action', ->
+      setup.httpBackend.expectGET('/phonecat/grailsControllerName/grailsActionName').respond()
+      setup.scope.controller = 'grailsControllerName'
+      setup.scope.action = 'grailsActionName'
+      setup.grails.getResource(setup.scope).get()
+
+    it 'should call url with only controller and specified action', ->
+      setup.httpBackend.expectGET('/phonecat/grailsControllerName/alternateGrailsActionName').respond()
+      setup.scope.controller = 'grailsControllerName'
+      setup.scope.action = 'grailsActionName'
+      setup.grails.getResource(setup.scope).get {action: 'alternateGrailsActionName'}
+
+    it 'should call url without controller, action, or id', ->
+      setup.httpBackend.expectGET('/phonecat').respond()
+      setup.grails.getResource(setup.scope).get()
+</code></pre>
+					</section>
+
+					<section>
+						<p>Angular End-To-End Testing</p>
+						<a href="http://angular.github.com/angular-phonecat/step-4/test/e2e/runner.html"><img src="lib/img/end-to-end_tests.png"></a>
+					</section>
+
+					<section>
+						<h2>Grails Functional Testing with Geb</h2>
+						<ul>
+							<li>Groovy DSL on top of Selenium/WebDriver</li>
+							<li>Slower than AngularJS end-to-end tests</li>
+							<li>I found it more intuitive due to Groovy background</li>
+						</ul>
+					</section>
+
+					<section>
+						<pre><code contenteditable>class PhoneDetailSpec extends GebSpecWithDefaultConfig {
+    def setup() {
+        to PhoneDetailPage, 'nexus-s'
+    }
+
+    def 'should display nexus-s page'() {
+        expect: phoneName == 'Nexus S'
+    }
+
+    def 'should display the first phone image as the main phone image'() {
+        expect: mainPhoneImage.endsWith('/phonecat/images/phones/nexus-s.0.jpg')
+    }
+
+    def 'should swap main image if a thumbnail image is clicked on'() {
+        when: phoneThumb(3).click()
+        then: mainPhoneImage.endsWith('/phonecat/images/phones/nexus-s.2.jpg')
+        when: phoneThumb(1).click()
+        then: mainPhoneImage.endsWith('/phonecat/images/phones/nexus-s.0.jpg')
+    }
+}
+</code></pre>
+					</section>
+
+					<section>
+						<h3>Page Objects</h3>
+						<ul>
+							<li>Avoid repetition of selectors</li>
+							<li>More robust tests</li>
+						</ul>
+						<pre><code contenteditable>class PhoneDetailPage extends PhonePage {
+    static action = "show"
+
+    static url = "$controller/$action" // This seems to only be needed on pages that are called with an id.
+
+    static content = {
+        phoneName { $('h1').text() }
+        mainPhoneImage { $('img.phone').@src }
+        phoneThumb { int index -> $(".phone-thumbs li:nth-child(${index}) img") }
+    }
+}
+</code></pre>
+					</section>
+
+					<section>
+						<h3>Running Geb Tests</h3>
+						<p>Not as easy as writing them.</p>
+						<ul>
+							<li>Using Geb plugin allows you to run tests from the command line.</li>
+							<li>It is possible to run them from your IDE with some hacks.</li>
+							<li>FirefoxDriver worked out of the box, but ChromeDriver is much faster with a minimal amount of setup on your machine.</li>
+						</ul>
+					</section>
+
 				</section>
 
 				<section>
-					<h2>Stellar Links</h2>
-					<ul>
-						<li><a href="https://github.com/hakimel/reveal.js">Source code on GitHub</a></li>
-						<li><a href="http://hakim.se/projects/reveal-js">Leave feedback on my site</a></li>
-						<li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
-					</ul>
+					<p>And now for something not completely contrived.</p>
+						<img src="lib/img/AsgardConsole.png">
+				</section>
+
+					<section>
+						<ul>
+							<li>Show project structure</li>
+							<li>Run application.</li>
+							<li>Run unit tests.</li>
+							<li>Run functional tests.</li>
+						</ul>
+					</section>
+
+				<section>
+					<h3>Github and Blog</h3>
+					<pre><code contenteditable>https://github.com/claymccoy/GrailsWithAngularAndCoffeeScript</p>
+http://claymccoy.blogspot.com/2012/09/grails-with-angularjs-and-coffeescript.html</code></pre>
+						<ul>
+							<li>Document lessons learned</li>
+							<li>Get feedback</li>
+							<li>Use as a seed for other projects</li>
+						</ul>
 				</section>
 
 				<section>
-					<h2>It's free</h2>
-					<p>
-						reveal.js and <a href="http://www.rvl.io">rvl.io</a> are entirely free but if you'd like to support the projects you can donate below.
-						Donations will go towards hosting and domain costs.
-					</p>
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-						<input type="hidden" name="cmd" value="_donations">
-						<input type="hidden" name="business" value="hakim.elhattab@gmail.com">
-						<input type="hidden" name="lc" value="US">
-						<input type="hidden" name="item_name" value="reveal.js / rvl.io">
-						<input type="hidden" name="no_note" value="0">
-						<input type="hidden" name="currency_code" value="USD">
-						<input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
-						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-					</form>
-				</section>
-
-				<section>
-					<h1>THE END</h1>
-					<h3>BY Hakim El Hattab / hakim.se</h3>
+						<img src="lib/img/funny-quotes-34_t2.jpg">
 				</section>
 
 			</div>
